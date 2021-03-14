@@ -1,0 +1,29 @@
+
+
+
+$body-bg: #f3f3f3;
+$body-color: #20221f;
+
+
+$theme-colors: (
+  "danger": #af2d2d,
+  "primary": #214252,
+  "light": #ebebeb,
+  "white" : #fff,
+  "warning" : #f5a25d,
+  "info" : #389393,
+  "success" : #007965,
+  "secondary" : #312c51,
+  "dark" : #0f0f0f,
+);
+
+
+$custom-colors: (
+  "cool" : #f6ead4,
+  "hot" : #a2a595,
+  "sauce" : #b4a284
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "node_modules/bootstrap/scss/bootstrap";
